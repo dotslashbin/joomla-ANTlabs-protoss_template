@@ -1,0 +1,102 @@
+body {
+	background:#fff;
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+	font-size:12px;
+}
+
+#frame {width: 100%; min-width:320px; max-width: 720px; margin:0 auto;  padding: 20px;}
+
+.form-wrapper {width: 48%; float:left; padding: 15% 0 0 15px}
+.logo-wrapper {background: url(../images/fancy-shadow.jpg) no-repeat right center; padding: 25% 0; width: 48%; float:left;}
+h1.logo {padding:0; min-width: 150px; height:auto; position:static; float:none; margin:0 auto;}
+
+.form-wrapper p,
+.form-wrapper fieldset {margin: 0}
+
+@media all and (min-width: 320px) and (max-width: 650px) {
+	#frame {min-width:320px; max-width: 630px; width:auto;}
+	.logo-wrapper { background:none; padding: 0 15px; float:none; width: auto; max-width: 280px }
+	.form-wrapper { float: none; padding: 15px;  width: auto; max-width: 280px}
+	h1.logo {margin: 0}
+}
+
+p.message {
+    border-top: 1px solid #CCCCCC;
+    margin: 15px 0;
+    padding-top: 15px;
+    text-align: center;
+}
+
+#form-login {}
+#form-login fieldset {}
+#form-login-username { }
+#form-login-password { }
+#form-login-remember label {margin: 0}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+	border: 1px solid #ddd; padding: 3px 5px;  	
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-transition: -moz-box-shadow 0.5s ease 0s;
+	-webkit-transition: -webkit-box-shadow 0.5s ease 0s;
+	transition: box-shadow 0.5s ease 0s;	
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+	border: 1px solid #aaa;
+	box-shadow: 0 0 3px #ddd; -webkit-box-shadow: 0 0 3px #ddd;
+}
+
+ input[type="submit"] {
+	line-height:1.8;
+	color: #666;
+	text-transform: uppercase; 
+	border: 1px solid #aaa; 
+	font-family: Helvetica, Verdana, Arial, sans-serif !important;
+	font-size: 10px;
+	cursor:pointer;
+	/*new code
+	display: inline-block;*/
+	zoom: 1;
+	*display: inline;
+	/*vertical-align: top;*/
+	outline: none;
+	text-align: center;
+	text-decoration: none;
+	padding: 3px 8px;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+	/* default white */
+	background: #f6f6f6;
+	vertical-align:middle;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;	
+}
+
+input[type="submit"]:hover {
+	color:#333;
+	cursor: pointer; text-decoration: none !important;
+	background: #e0e0e0;
+}
+
+
+
+#login-form fieldset {
+	padding:0 10px !important;
+}
+
+#username,
+#passwd {width:80%}
+#button {}
+
+#form-login-remember {margin-top: 15px !important;}
+
+.inputbox {}
+
+.inputbox:hover, #searchbox .inputbox:focus {}
+
+input.button {margin-top: 15px}
+input.button:hover,input.button:focus {}

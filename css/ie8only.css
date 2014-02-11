@@ -1,0 +1,36 @@
+/**
+ * Author Dan Partac
+ * Copyright (C) 2005 - 2012 Dan Partac. All rights reserved.
+ * @license	commercial
+ * IE8 Styling
+ */
+
+ #slideshow,
+.main {min-width: 980px}
+
+.nspArt .fleft {float:none}
+ 
+.mainnav ul.menu li.deeper li.deeper:hover > ul  { /*margin-left: 196px;*/ }
+.mainnav ul.mini {display:none}
+.typo-pre-title { border: 1px solid #ccc }
+
+p.buttons {line-height:1.5; margin: 1.5em 0;}
+
+input[type="button"], input[type="submit"] {line-height: 1.6 !important}
+button {line-height: 1.4 !important}
+
+.button, input[type="button"], input[type="submit"], button {border:1px solid #ccc;}
+.button.green, .button.yellow, .button.blue, .button.magenta, .button.purple, 
+.button.red, .button.pink, .button.orange, .button.grey, .button.black {border: 0;}
+
+.typo-bubblect {border: 1px solid #ddd !important; box-shadow: none;}
+.bubble-2 .typo-bubblect {border: 1px solid #ddd !important; box-shadow: none}
+
+.bubble-3 .typo-bubblect {border: 1px solid #B7D4E9 !important; box-shadow: none}
+.bubble-4 .typo-bubblect {border: 2px solid #B7D4E9 !important; box-shadow: none}
+.bubble-5 .typo-bubblect,
+.bubble-6.typo-bubblect {border:0; box-shadow: none }
+
+blockquote.background {border: 1px solid #ddd}
+
+.label {margin-top: 7%}

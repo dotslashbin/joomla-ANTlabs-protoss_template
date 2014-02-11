@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="3.0" type="template" client="site">
+	<name>protoss</name>
+	<version>1.0.2</version>
+	<creationDate>12 October 2012</creationDate>
+	<author>Dan Partac</author>
+	<authorEmail>dan.partac@yahoo.com</authorEmail>
+	<authorUrl>http://themeforest.net/user/dnp_theme</authorUrl>
+	<copyright>Copyright (C), Dan Partac. All Rights Reserved.</copyright>
+	<license>commercial</license>
+	<description>TPL_TEMPLATE_DESCRIPTION</description>
+
+	<files>
+		<folder>css</folder>
+		<folder>fonts</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+		<folder>language</folder>
+		<folder>themes</folder>
+		<folder>tools</folder>
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>favicon.ico</filename>
+		<filename>component.php</filename>
+		<filename>error.php</filename>
+	</files>
+
+	<positions>
+		<position>debug</position>
+		<position>search</position>
+		<position>feedback</position>
+		<position>contact</position>
+		<position>header-1</position>
+		<position>header-2</position>
+		<position>social</position>
+		<position>login</position>
+		<position>slider</position>
+		<position>top-portfolio</position>
+		<position>top-1</position>
+		<position>top-2</position>
+		<position>top-3</position>
+		<position>top-4</position>
+		<position>ct-1</position>
+		<position>ct-2</position>
+		<position>ct-3</position>
+		<position>ct-4</position>
+		<position>content-top</position>
+		<position>left-inner</position>
+		<position>content-bottom</position>
+		<position>position-5</position>
+		<position>position-7</position>
+		<position>bottom-portfolio</position>
+		<position>bottom-1</position>
+		<position>bottom-2</position>
+		<position>bottom-3</position>
+		<position>bottom-4</position>
+		<position>breadcrumbs</position>
+		<position>footer</position>
+		<position>footernav</position>
+	</positions>
+
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.tpl_protoss.ini</language>
+		<language tag="en-GB">en-GB/en-GB.tpl_protoss.sys.ini</language>
+	</languages>
+
+	<config>
+		<fields name="params">
+			
+			<fieldset name="basic" addfieldpath="/templates/protoss/tools/admin/elements">
+
+				<field name="tools" type="list" default="disable"
+					label="TPL_TEMPLATE_TOOLS"
+					description="TPL_TEMPLATE_TOOLS_DESC">
+						<option value="disable">TPL_DISABLE</option>
+						<option value="enable">TPL_ENABLE</option>
+				</field>
+
+				<field name="hide_content" type="list" default="disable"
+					label="TPL_TEMPLATE_HIDE_CONTENT"
+					description="TPL_TEMPLATE_HIDE_CONTENT_DESC">
+						<option value="disable">TPL_DISABLE</option>
+						<option value="enable">TPL_ENABLE</option>
+				</field>
+				
+			</fieldset>
+			
+			<fieldset name="design" label="Design Settings">
+
+				<field name="templateresponsive" type="list" default="1"
+					label="TPL_TEMPLATE_RESPONSIVE"
+					description="TPL_TEMPLATE_RESPONSIVE_DESC">
+						<option value="0">Disabled</option>
+						<option value="1">Enabled</option>
+				</field>
+				
+				<field name="template_width" type="list" default="full-width"
+					label="TPL_TEMPLATE_WIDTH"
+					description="TPL_TEMPLATE_WIDTH_DESC">
+						<option value="boxed">Boxed</option>
+						<option value="full-width">Full Width</option>
+				</field>
+				
+				<field name="templatecolor" type="list" default="default"
+					label="TPL_TEMPLATE_COLOR"
+					description="TPL_TEMPLATE_COLOR_DESC">
+						<option value="default">Blue</option>
+						<option value="orange">Orange</option>
+						<option value="green">Green</option>
+						<option value="red">Red</option>
+						<option value="yellow">Yellow</option>
+				</field>
+			
+			</fieldset>	
+			
+			<fieldset name="social" label="Typography Settings">
+				<field name="font_selection" type="text" default="Abel"
+					label="TPL_TEMPLATE_FONTS_SELECTION"
+					description="TPL_TEMPLATE_FONTS_SELECTION_DESC" />
+
+				<field name="font_weight" type="text" default="400"
+					label="TPL_TEMPLATE_FONTS_WEIGHT"
+					description="TPL_TEMPLATE_FONTS_WEIGHT_DESC" />
+					
+				<field name="font_subset" type="text" default="latin"
+					label="TPL_TEMPLATE_FONTS_SUBSET"
+					description="TPL_TEMPLATE_FONTS_SUBSET_DESC" />	
+			</fieldset>	
+			
+			<fieldset name="networking" label="Networking Settings">
+				<field name="facebook_networking" type="text" default="" label="Facebook" description="Facebook Account Link Goes Here" filter="string" />
+				<field name="twitter_networking" type="text" default="" label="Twitter" description="Twitter Account Link Goes Here" filter="string" />
+				<field name="pinterest_networking" type="text" default="" label="Pinterest" description="Pinterest Account Link Goes Here" filter="string" />
+				<field name="google_networking" type="text" default="" label="GooglePlus" description="GooglePlus Account Link Goes Here" filter="string" />
+				<field name="linkedin_networking" type="text" default="" label="LinkedIn" description="LinkedIn Account Link Goes Here" filter="string" />
+			</fieldset>	
+			
+			<fieldset name="sharing" label="Sharing Settings">
+				
+				<field name="facebook_share" type="radio" default="1" class="btn-group" label="Facebook" description="Enable / disable sharing on Facebook site">
+						<option value="0">TPL_DISABLE</option>
+						<option value="1">TPL_ENABLE</option>
+				</field>
+				
+				<field name="twitter_share" type="radio" default="1" class="btn-group" label="Twitter" description="Enable / disable sharing on Twitter site">
+						<option value="0">TPL_DISABLE</option>
+						<option value="1">TPL_ENABLE</option>
+				</field>
+				
+				<field name="pinterest_share" type="radio" default="1" class="btn-group" label="Pinterest" description="Enable / disable sharing on Pinterest site">
+						<option value="0">TPL_DISABLE</option>
+						<option value="1">TPL_ENABLE</option>
+				</field>
+				
+				<field name="google_share" type="radio" default="1" class="btn-group" label="Google Plus" description="Enable / disable sharing on Google Plus site">
+						<option value="0">TPL_DISABLE</option>
+						<option value="1">TPL_ENABLE</option>
+				</field>
+				
+				<field name="linkedin_share" type="radio" default="1" class="btn-group" label="LinkedIn" description="Enable / disable sharing on LinkedIn site">
+						<option value="0">TPL_DISABLE</option>
+						<option value="1">TPL_ENABLE</option>
+				</field>
+				
+				<field name="delicious_share" type="radio" default="1" class="btn-group" label="Delicious" description="Enable / disable sharing on Delicious site">
+						<option value="0">TPL_DISABLE</option>
+						<option value="1">TPL_ENABLE</option>
+				</field>
+				
+				<field name="stumbleupon_share" type="radio" default="1" class="btn-group" label="StumbleUpon" description="Enable / disable sharing on StumbleUpon site">
+						<option value="0">TPL_DISABLE</option>
+						<option value="1">TPL_ENABLE</option>
+				</field>
+
+			</fieldset>					
+			
+			<fieldset name="contact" label="Contact Settings">
+				<field name="telephone" type="text" default="" label="Telephone" description="Telephone Number goes here" filter="string" />
+				<field name="address" type="text" default="" label="Address" description="Short address line goes here" filter="string" />
+				<field name="mail" type="text" default="" label="eMail" description="eMail address goes here" filter="string" />
+			</fieldset>	
+			
+			<fieldset name="navigation" label="Navigation Settings">
+				<field name="mainnavigation" type="menu" default="mainmenu" label="TPL_SELECT_MENU" description="TPL_SELECT_MENU_DESC" />
+				<field name="menustyle" type="list" default="clean"
+					label="TPL_TEMPLATE_MENU_STYLE"
+					description="TPL_TEMPLATE_MENU_STYLE_DESC">
+						<option value="default">Default</option>
+						<option value="clean">Clean</option>
+						<option value="big">Big</option>
+						<option value="pills">Pills</option>
+				</field>
+			</fieldset>
+			
+			<fieldset name="ga" label="Google Analytics">
+				<field name="ga" type="textarea" default="" label="TPL_GOOGLE_ANALYTICS" description="TPL_GOOGLE_ANALYTICS_DESC" filter="string" />
+				<field type="templateasset" path="templates/protoss/tools/admin/" />
+			</fieldset>	
+		
+		</fields>
+	</config>
+</extension>

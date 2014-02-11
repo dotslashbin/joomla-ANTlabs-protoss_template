@@ -1,0 +1,32 @@
+/*
+ * DNP Slider
+ * http://pcadviser.ro
+ *
+ * Copyright (c) 2012 Dan Partac - http://pcadviser.ro
+ * commercial
+ *
+ */
+
+#style-form .nav-tabs > li > a { border-radius: 3px 3px 0 0; -webkit-border-radius: 3px 3px 0 0 }
+
+#style-form .accordion-group { border-radius: 0; -webkit-border-radius: 0; margin: -1px 0 0 }
+#style-form .accordion-group:first-child { border-radius: 3px 3px 0 0; -webkit-border-radius: 3px 3px 0 0 }
+#style-form .accordion-group:last-child { border-radius: 0 0 3px 3px; -webkit-border-radius: 0 0 3px 3px }
+
+#style-form  a:hover,
+#style-form  a:focus { outline: none; text-decoration: none }
+
+#style-form .control-group {
+	clear: none;
+	/*display: inline-block;*/
+	margin: 18px 50px 18px 0;
+	/*min-width: 480px;*/
+}
+
+#module-form.form-horizontal .controls {
+    margin-left: 140px;
+}
+
+#style-form .accordion-heading, #style-form .accordion-toggle {
+	background: #f6f6f6
+}

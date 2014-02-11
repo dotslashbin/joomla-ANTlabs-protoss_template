@@ -1,0 +1,72 @@
+/**
+ * Author Dan Partac
+ * Copyright (C) 2005 - 2012 Dan Partac. All rights reserved.
+ * @license	commercial
+ * Template Color Theme Styling
+ */
+ 
+a {text-decoration:none; color: #eb6a1c;}
+
+.mainnav .menu > li.active ul > li {
+    background-color: #eb6a1c;
+}
+
+.mainnav .menu > li.active > a {
+    border-bottom-color: #eb6a1c;
+    border-top-color: #eb6a1c;
+    color: #eb6a1c;
+}
+
+.mainnav .menu > li.active.open-root > a {
+    border-bottom-color: #eb6a1c;
+    border-top-color: #eb6a1c;
+}
+
+#mainnav-wrapper.clean .mainnav .menu > li.active.open-root > a {
+    border-bottom-color: #eb6a1c;
+}
+
+#mainnav-wrapper.pills .mainnav li.mini > a.active {background: #eb6a1c; color: #fff;}
+#mainnav-wrapper.pills .mainnav .menu > li.active > a {color: #fff; background: #eb6a1c }
+#mainnav-wrapper.pills .mainnav li.mini > a.active {background: #eb6a1c !important; color: #fff;}
+
+
+#main-wrapper ul.menu li.active > a {
+    background-color: #eb6a1c;
+}	
+
+.label_slider h2.big {
+    color: #eb6a1c;
+}
+
+p.readmore a:hover {
+	background-color: #eb6a1c !important;
+}
+
+#filter ul li:hover > span, #sort ul li:hover > span,
+#filter a.active, #sort a.active {background-color: #eb6a1c !important;}
+
+.carousel-indicators li.active {background: #eb6a1c}
+.nsNext:hover,
+.nsPrev:hover { background-color: #eb6a1c !important}
+
+.nav-tabs > .active > a, .nav-tabs > .active > a:hover, .nav-tabs > .active > a:focus {
+    border-top-color: #eb6a1c;
+    color: #eb6a1c;
+}
+
+.slider .slider-next:hover, .slider .slider-prev:hover {
+	background-color: #eb6a1c 
+}
+
+.slider .readmore a { background-color: #eb6a1c }
+
+.label_slider h2.big { color: #eb6a1c }
+.slider-pagination .active { background-color: #eb6a1c } 
+
+p.typo-icon span.icon,
+#header-2 li i,
+li [class^="icon-"],
+li [class*=" icon-"] {
+  color: #eb6a1c
+}

@@ -1,0 +1,73 @@
+/**
+ * Author Dan Partac
+ * Copyright (C) 2005 - 2012 Dan Partac. All rights reserved.
+ * @license	commercial
+ * Template Color Theme Styling
+ */
+ 
+a {text-decoration:none; color: #bdb60b;}
+
+.mainnav .menu > li.active ul > li {
+    background-color: #dbd203;
+}
+
+.mainnav .menu > li.active > a {
+    border-bottom-color: #dbd203;
+    border-top-color: #dbd203;
+    color: #bdb60b;
+}
+
+.mainnav .menu > li.active.open-root > a {
+    border-bottom-color: #bdb60b;
+    border-top-color: #bdb60b;
+}
+
+#mainnav-wrapper.clean .mainnav .menu > li.active.open-root > a {
+    border-bottom-color: #bdb60b;
+}
+
+#mainnav-wrapper.pills .mainnav li.mini > a.active {background: #dbd203; color: #fff;}
+#mainnav-wrapper.pills .mainnav .menu > li.active > a {color: #fff; background: #dbd203 }
+#mainnav-wrapper.pills .mainnav li.mini > a.active {background: #dbd203 !important; color: #fff;}
+
+
+#main-wrapper ul.menu li.active > a {
+    background-color: #dbd203;
+}	
+
+.label_slider h2.big {
+    color: #bdb60b;
+}
+
+p.readmore a:hover{
+	background-color: #dbd203 !important;
+}
+
+#filter ul li:hover > span, #sort ul li:hover > span,
+#filter a.active, #sort a.active {background-color: #dbd203 !important;}
+
+.carousel-indicators li.active {background: #dbd203}
+.nsNext:hover,
+.nsPrev:hover { background-color: #dbd203 !important}
+
+.nav-tabs > .active > a, .nav-tabs > .active > a:hover, .nav-tabs > .active > a:focus {
+    border-top-color: #dbd203;
+    color: #dbd203;
+}
+
+.slider .slider-next:hover, .slider .slider-prev:hover {
+	background-color: #dbd203 
+}
+
+.slider .readmore a { background-color: #dbd203 }
+
+.label_slider h2.big { color: #dbd203 }
+
+.slider-pagination .active { background-color: #dbd203 }
+
+p.typo-icon span.icon,
+#header-2 li i,
+li [class^="icon-"],
+li [class*=" icon-"] {
+  color: #dbd203
+}
